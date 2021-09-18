@@ -16,10 +16,6 @@ body {
 .list {
   list-style: none;
 }
-.btn {
-  
-}
-
 .header-logo {
   font-family: Raleway;
 font-style: normal;
@@ -152,4 +148,39 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
+}
+.button-link {
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+letter-spacing: 0.03em;
+color: var(--secondary-title-color);
+background: #F5F4FA;
+border-radius: 4px;
+}
+.button-link:hover,
+.button-link:focus {
+background-color: #2196F3;
+color: var(--primary-title-color);
+border-radius: 4px;
+}
+.portfolio-title {
+  font-family: Roboto;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--secondary-text-color);
+}
+.portfolio-after-title {
+  font-family: Roboto;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
 }
